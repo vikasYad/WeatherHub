@@ -118,7 +118,7 @@ async function fetchData(city) {
         else if(conditionText.includes("cloud")){
             setVideo("cloud");
         }
-        else if(conditionText.includes("clear")){
+        else if(conditionText.includes("Clear")){
             setVideo("clear");
         }
     } catch (error) {
