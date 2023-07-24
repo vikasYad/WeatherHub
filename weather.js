@@ -112,6 +112,15 @@ async function fetchData(city) {
         else if(conditionText.includes("Mist")){
             setVideo("mist");
         }
+        else if(conditionText.includes("sun")){
+            setVideo("sun");
+        }
+        else if(conditionText.includes("cloud")){
+            setVideo("cloud");
+        }
+        else if(conditionText.includes("clear")){
+            setVideo("sun");
+        }
 
     } catch (error) {
         console.error(error);
