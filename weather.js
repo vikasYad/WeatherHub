@@ -119,13 +119,8 @@ async function fetchData(city) {
             setVideo("cloud");
         }
         else if(conditionText.includes("clear")){
-            setVideo("sun");
-        }
-        else if(conditionText.includes("clear")){
             setVideo("clear");
         }
-        
-
     } catch (error) {
         console.error(error);
     }
